@@ -55,3 +55,12 @@ jobs:
           environment: production
 ```
 This workflow triggers on push events to the main branch, checks out the code, builds the project using Maven, and deploys it to production. The workflow file is written in YAML and defines a single job with multiple steps.
+
+
+<img width="1920" height="1080" alt="Screenshot (526)" src="https://github.com/user-attachments/assets/19760bbd-dafd-460b-9f48-86057f1285cb" />
+
+<img width="1920" height="1080" alt="Screenshot (527)" src="https://github.com/user-attachments/assets/270554f6-4512-4d2b-b4cb-0e6d5d60c33a" />
+
+<img width="1920" height="1080" alt="Screenshot (528)" src="https://github.com/user-attachments/assets/a2de7d91-35c6-4b60-9903-6cbccb28d3ac" />
+
+<img width="1920" height="1080" alt="Screenshot (529)" src="https://github.com/user-attachments/assets/2dd5d5f1-8aca-44f5-8329-621a1145cafd" />
