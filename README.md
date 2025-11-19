@@ -1,7 +1,7 @@
 # github-actions-demo
 
 
-**Why GitHub Actions ?** # Second Commit
+**Why GitHub Actions ?** 
 
 *Simplified Tool Management*:
 	+ With GitHub Actions, you don't need to worry about installing and configuring third-party tools like Java, Maven, or Node.js on your CI/CD server. You can simply use pre-built actions to run your application. This eliminates the need for manual tool management, reducing maintenance overhead and allowing you to focus on development.
