@@ -23,3 +23,5 @@ jobs:
            
         -  name: Create Tux
            run: cowsay -f vader "I am eating fish" >> vader.txt 
+        - name: Show Cow
+          run: cat vader.txt 
