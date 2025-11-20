@@ -64,3 +64,8 @@ This workflow triggers on push events to the main branch, checks out the code, b
 <img width="1920" height="1080" alt="Screenshot (528)" src="https://github.com/user-attachments/assets/a2de7d91-35c6-4b60-9903-6cbccb28d3ac" />
 
 <img width="1920" height="1080" alt="Screenshot (529)" src="https://github.com/user-attachments/assets/2dd5d5f1-8aca-44f5-8329-621a1145cafd" />
+
+In the following picture notice the "Checkout Repo" and "Post Checkout Repo".
+
+<br><br>
+<img width="1920" height="1080" alt="Screenshot (531)" src="https://github.com/user-attachments/assets/517f98f2-4e80-47bf-8547-fe17ca01ed06" />
