@@ -8,9 +8,12 @@ jobs:
         - name: Demo step
           run: echo "Welcome To GitHub Actions -FIRST WORKFLOW"
         - name: Checkout Repo
-          uses: actions/checkout@v5    
+          uses: actions/checkout@v5 
+        - name: Install cowsay
+          run:sudo apt update && install cowsay -y     
 
-        - name: List Files
-          run: ls
-        - name: Print the readme file
-          run: cat README.md    
+        - name: Create Cow
+          run: cowsay -f cow "I an eating grass" >> cow.txt
+        
+        - name: Show Cow
+          run: cat cow.txt    
