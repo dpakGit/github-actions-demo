@@ -17,5 +17,9 @@ jobs:
         
         - name: Show Cow
           run: cat cow.txt  
+        
         -  name: Create Tux
-           run: cowsay -f tux "I am eating fish" >> tux.txt    
+           run: cowsay -f tux "I am eating fish" >> tux.txt
+           
+        -  name: Create Tux
+           run: cowsay -f vader "I am eating fish" >> vader.txt 
