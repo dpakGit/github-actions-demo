@@ -10,7 +10,7 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v5 
         - name: Install cowsay
-          run:sudo apt update && install cowsay -y     
+          run: sudo apt update && install cowsay -y     
 
         - name: Create Cow
           run: cowsay -f cow "I an eating grass" >> cow.txt
