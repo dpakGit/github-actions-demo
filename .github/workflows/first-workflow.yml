@@ -13,7 +13,6 @@ jobs:
           run: sudo apt install cowsay -y     
 
         - name: Create Cow
-          run: cowsay -f cow "I am eating grass" >> cow.txt
           run: cowsay "I am eating grass" >> cow.txt
         
         - name: Show Cow
