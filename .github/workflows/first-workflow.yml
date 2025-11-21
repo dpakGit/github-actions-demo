@@ -10,8 +10,8 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v5
           
-        - name: Install httpd
-          run: sudo apt install httpd  
+        - name: Install nginx
+          run: sudo apt install nginx -y  
         
         - name: Status httpd
-          run: sudo systemctl status httpd
+          run: sudo systemctl status nginx
