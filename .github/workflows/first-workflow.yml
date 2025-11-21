@@ -13,7 +13,7 @@ jobs:
         - name: Install Cowsay
           run: sudo apt install cowsay -y  
         
-        - name: Create Dragon
-          run: cowsay -f peacock "I am Breathing fire" >> dragon.txt
+        - name: Create stimpy
+          run: cowsay -f stimpy "I am Breathing fire" >> dragon.txt
         - name: Show Dragon
           run: cat dragon.txt
