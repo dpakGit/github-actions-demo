@@ -10,8 +10,8 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v5
           
-       # - name: Install nginx
-        #  run: sudo apt install nginx -y  
+        - name: Install Cowsay
+          run: sudo apt install cowsay -y  
         
         - name: Create Dragon
           run: cowsay -f dragon "I am Breathing fire" >> dragon.txt
