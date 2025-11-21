@@ -13,6 +13,7 @@ jobs:
         - name: Install nginx
           run: sudo apt install nginx -y  
         
-        - name: Status httpd
+        - name: Start httpd
           run: sudo systemctl start nginx
+        - name: status nginx  
           run: sudo systemctl status nginx
