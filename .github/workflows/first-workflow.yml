@@ -10,10 +10,10 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v5
           
-        - name: Install nginx
-          run: sudo apt install nginx -y  
+       # - name: Install nginx
+        #  run: sudo apt install nginx -y  
         
-        - name: Start httpd
-          run: sudo systemctl start nginx
-        - name: status nginx  
-          run: sudo systemctl status nginx
+        - name: Create Dragon
+          run: cowsay -f dragon "I am Breathing fire" >> dragon.txt
+        - name: Show Dragon
+          run: cat dragon.txt
