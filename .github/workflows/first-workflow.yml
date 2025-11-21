@@ -16,5 +16,4 @@ jobs:
           run: cowsay -f dragon "I am Breathing fire" >> dragon.txt
         
         - name: Show Dragon
-
           run: cat dragon.txt
