@@ -5,15 +5,17 @@ jobs:
     first-job:
         runs-on: ubuntu-latest
         steps:
-        - name: Demo step
-          run: echo "Welcome To GitHub Actions -FIRST WORKFLOW"
+        - name: Checkout Repo
+          uses: actions/checkout@v5
+                
         - name: Checkout Repo
           uses: actions/checkout@v5
           
         - name: Install Cowsay
           run: sudo apt install cowsay -y  
         
-        - name: Create stimpy
-          run: cowsay -f stimpy "I am Breathing fire" >> dragon.txt
+        - name: Create Dragon
+          run: cowsay -f dragon "I am Breathing fire" >> dragon.txt
+        
         - name: Show Dragon
           run: cat dragon.txt
