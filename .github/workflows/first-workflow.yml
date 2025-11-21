@@ -14,6 +14,6 @@ jobs:
           run: sudo apt install cowsay -y  
         
         - name: Create Dragon
-          run: cowsay -f dragon "I am Breathing fire" >> dragon.txt
+          run: cowsay -f elephant "I am Breathing fire" >> dragon.txt
         - name: Show Dragon
           run: cat dragon.txt
