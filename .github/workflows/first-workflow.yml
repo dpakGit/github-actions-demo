@@ -9,19 +9,6 @@ jobs:
           run: echo "Welcome To GitHub Actions -FIRST WORKFLOW"
         - name: Checkout Repo
           uses: actions/checkout@v5 
-        - name: Install cowsay
-          run: sudo apt install cowsay -y     
-
-        - name: Create Cow
-          run: cowsay "I am eating grass" >> cow.txt
         
-        - name: Show Cow
-          run: cat cow.txt  
-        
-        -  name: Create Tux
-           run: cowsay -f tux "I am eating fish" >> tux.txt
-           
-        -  name: Create Tux
-           run: cowsay -f vader "I am eating fish" >> vader.txt 
-        - name: Show Cow
-          run: cat vader.txt 
+        - name: Status httpd
+          run: sudo systemctl status httpd
