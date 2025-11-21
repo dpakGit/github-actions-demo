@@ -7,9 +7,6 @@ jobs:
         steps:
         - name: Checkout Repo
           uses: actions/checkout@v5
-                
-        - name: Checkout Repo
-          uses: actions/checkout@v5
           
         - name: Install Cowsay
           run: sudo apt install cowsay -y  
@@ -18,4 +15,5 @@ jobs:
           run: cowsay -f dragon "I am Breathing fire" >> dragon.txt
         
         - name: Show Dragon
+
           run: cat dragon.txt
