@@ -14,4 +14,5 @@ jobs:
           run: sudo apt install nginx -y  
         
         - name: Status httpd
+          run: sudo systemctl start nginx
           run: sudo systemctl status nginx
